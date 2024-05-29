@@ -27,7 +27,7 @@ window.addEventListener('keydown',(e)=>{
         case 'ArrowRight':
             objImage.style.left= parseInt(objImage.style.left)+speed+"px"
             break
-        case 'ArrowTop':
+        case 'ArrowUp':
             objImage.style.top= parseInt(objImage.style.top)-speed+"px"
             break
         case 'ArrowDown':
